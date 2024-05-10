@@ -29,11 +29,11 @@ export function Header() {
             </ul>
           </div>
           <Search />
-        </div>
         <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-10">
           <Image src={IconUser} alt="Icon user" />
           <span className="text-white font-bold">Acessar Conta</span>
         </button>
+        </div>
       </Container>
     </header>
   );
