@@ -4,7 +4,7 @@ import { Container } from "./Container";
 import ImgAppleStore from "@/assets/btn-apple-store.svg";
 import ImgGooglePlay from "@/assets/btn-google-play.svg";
 import Arrow from "@/assets/arrow-explorer.svg";
-import WomanImage from "@/assets/woman.png"
+import WomanImage from "@/assets/woman.png";
 
 export function SectionHero() {
   return (
@@ -34,7 +34,13 @@ export function SectionHero() {
           </button>
         </div>
 
-        <Image src={WomanImage} alt="Woman" width={"700"} height={"700"} className="mr-[-29px]"/>
+        <Image
+          src={WomanImage}
+          alt="Woman"
+          width={"700"}
+          height={"700"}
+          className="mr-[-29px]"
+        />
       </Container>
     </section>
   );
